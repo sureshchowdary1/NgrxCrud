@@ -112,6 +112,7 @@ export class DetailsEffect {
                 ),
                 catchError(err => of(new detailsActions.DELETE_DETAILS_FAIL(err)))
             )
+            
         )
 
     )
